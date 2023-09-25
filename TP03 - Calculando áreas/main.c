@@ -35,7 +35,7 @@ double calcularArea(FILE *arquivo) {
 
     area = 0.5 * abs(area); 
 
-    // Liberar a memória alocada dinamicamente
+    
     free(vertices);
 
     return area;
